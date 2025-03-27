@@ -1,6 +1,5 @@
 import React, { createContext, useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
-import AuthService from '../services/authService';
 
 export const AuthContext = createContext({
   isAuthenticated: false,
