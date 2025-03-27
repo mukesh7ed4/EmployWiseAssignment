@@ -11,7 +11,7 @@ function App() {
     <Router>
       <AuthProvider>
         <Routes>
-         
+        <Route path='/login' element={<LoginForm />}> </Route> 
           <Route 
             path="/users" 
             element={
@@ -20,7 +20,7 @@ function App() {
               </PrivateRoute>
             } 
           />
-          <Route path="*" element={<Navigate to="/users" replace />} />
+          <Route path="*" element={<Navigate to="/login" replace />} />
         </Routes>
       </AuthProvider>
     </Router>
