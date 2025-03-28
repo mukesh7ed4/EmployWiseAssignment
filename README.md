@@ -1,5 +1,7 @@
 # EmployWise User Management Application
 
+Live link:https://employ-wise-assignments.netlify.app
+
 ## Project Overview
 This is a React-based user management application that integrates with the Reqres API to perform authentication and user-related operations. The application allows users to log in, view a paginated list of users, edit user details, and delete users.
 
